@@ -142,7 +142,7 @@ export default class GanttTimeline extends Component {
               style={{
                 ...style,
                 height: '20px',
-                borderLeft: `${tickWidth}px solid black`,
+                borderLeft: `3px solid black`,
                 width: `${tick.width - paddingLeft - tickWidth}px`,
                 float: 'left',
                 margin: '0px',
